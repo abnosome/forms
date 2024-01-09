@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Add new product</h2>
+    <form method="post">
+        <label>
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Bike..">
+        </label>
+        <label>
+            <p>Price</p>
+            <input type="number" name="price" placeholder="10 000">
+        </label>
+        <label>
+            <p>Count</p>
+            <input type="number" min="0" max="10" name="count" placeholder=">10 000">
+        </label>
+        <label>
+            <p>Category</p>
+            <select name="category" >
+                <option value="sport">sport</option>
+                <option value="house">house</option>
+                <option value="home">home</option>
+                <option value="hobby">hobby</option>
+            </select>
+        </label>
+    <label>
+        <p>Description</p>
+        <textarea name="description" placeholder="tell about item" ></textarea>
+    </label>
+        <button>Отправить</button>
+    </form>
+    <h2>input your login and password</h2>
+    <label>
+        <p>login e-mail</p>
+        <input type="text" name="name" placeholder="e-mail">
+    </label>
+    <label>
+        <p>password</p>
+        <input type="password" name="password" placeholder="max 8">
+    </label>
+    <label>
+    <form>
+        <button>login</button>
+        
+    </form>
+
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <input type="text" name="title" placeholder="title">
+        <input type="text" name="body" placeholder="body">
+        <input type="number" name="userId" placeholder="userId">
+        <button>send</button>
+    </form>
+</body>
+</html>
